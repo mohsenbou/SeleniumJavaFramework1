@@ -43,7 +43,7 @@ public class TestNG_Demo {
         driver.get("https://www.google.com/");
         driver.findElement(By.xpath("//*[@id=\"W0wltc\"]/div")).click();
 
-        GoogleSearchPage.textbox_search(driver).sendKeys("Automation step by step");;
+        GoogleSearchPage.textbox_search(driver).sendKeys("Automation step by step");
         GoogleSearchPage.button_search(driver).submit();
 
         System.out.println("==================TestNG_Demo completed Successfully=====================");
