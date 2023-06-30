@@ -18,4 +18,5 @@ public class TestNGIgnoreDemo {
     public void test3(){
         System.out.println("I am inside test 3");
     }
+
 }

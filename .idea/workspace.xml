@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55638bc-1842-4b5d-be48-a7d558ce057c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGIgnoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGRetryFailedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/RetryAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/TestNGIgnoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGIgnoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2RYvm87zMn9iOwlqPfda62eYTr7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,20 +66,10 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGPriorityDemo">
-    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNGRetryFailedDemo">
+    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngGroups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParameters.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -134,20 +128,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNGRetryFailedDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.TestNGRetryFailedDemo" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" />
       <item itemvalue="TestNG.TestNGDependencyDemo" />
       <item itemvalue="TestNG.TestNGIgnoreDemo" />
-      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" />
-      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" />
+      <item itemvalue="TestNG.TestNGRetryFailedDemo" />
       <item itemvalue="TestNG.TestNGPriorityDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNGRetryFailedDemo" />
+        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" />
         <item itemvalue="TestNG.TestNGPriorityDemo" />
         <item itemvalue="TestNG.TestNGIgnoreDemo" />
         <item itemvalue="TestNG.TestNGDependencyDemo" />
-        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" />
-        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688119656148</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Selenium TestNG Ignore&#10;&#10;package-info.java: prevent the whole tests execution in the package &quot;demo&quot;. we need to disable the ignore notation.">
+      <created>1688127857848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688127857848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -225,6 +254,7 @@
     <MESSAGE value="Selenium TestNG Grouping" />
     <MESSAGE value="Selenium TestNG Parameters" />
     <MESSAGE value="Selenium TestNG Dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium TestNG Dependencies" />
+    <MESSAGE value="Selenium TestNG Ignore&#10;&#10;package-info.java: prevent the whole tests execution in the package &quot;demo&quot;. we need to disable the ignore notation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium TestNG Ignore&#10;&#10;package-info.java: prevent the whole tests execution in the package &quot;demo&quot;. we need to disable the ignore notation." />
   </component>
 </project>
