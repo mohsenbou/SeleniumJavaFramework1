@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55638bc-1842-4b5d-be48-a7d558ce057c" name="Changes" comment="add chromedriver.exe">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGMultiBrowserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGPriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngListenersByPackage.xml" afterDir="false" />
+    <list default="true" id="d55638bc-1842-4b5d-be48-a7d558ce057c" name="Changes" comment="Selenium TestNG Grouping">
+      <change afterPath="$PROJECT_DIR$/excel/data.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MyLogs.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/MyLogsXml.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGGroupsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGParametersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngGroups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngMultiBrowser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestNG_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestNG_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngListeners.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/TestNGMultiBrowserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGMultiBrowserDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Dev/tuto selenium/SeleniumJavaFramework",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +68,37 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGPriorityDemo">
+  <component name="RunManager" selected="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml">
+    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngGroups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/testngMultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngMultiBrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParameters.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNGPriorityDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaFramework" />
       <extension name="coverage">
@@ -78,60 +110,6 @@
       <option name="PACKAGE_NAME" value="demo" />
       <option name="MAIN_CLASS_NAME" value="demo.TestNGPriorityDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGPriorityDemo.one" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.TestNGPriorityDemo" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGPriorityDemo.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.TestNGPriorityDemo" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGPriorityDemo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.TestNGPriorityDemo" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,19 +135,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" />
+      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngMultiBrowser.xml" />
+      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" />
       <item itemvalue="TestNG.TestNGPriorityDemo" />
-      <item itemvalue="TestNG.TestNGPriorityDemo.one" />
-      <item itemvalue="TestNG.TestNGPriorityDemo.test2" />
-      <item itemvalue="TestNG.TestNGPriorityDemo.test3" />
       <item itemvalue="TestNG.TestNGPriorityDemo.three" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngParameters.xml" />
+        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngGroups.xml" />
+        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/testngMultiBrowser.xml" />
         <item itemvalue="TestNG.TestNGPriorityDemo" />
         <item itemvalue="TestNG.TestNGPriorityDemo.three" />
-        <item itemvalue="TestNG.TestNGPriorityDemo.one" />
-        <item itemvalue="TestNG.TestNGPriorityDemo.test3" />
-        <item itemvalue="TestNG.TestNGPriorityDemo.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688044347859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selenium TestNG Priorities">
+      <created>1688050389476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688050389476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -211,6 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add chromedriver.exe" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chromedriver.exe" />
+    <MESSAGE value="Selenium TestNG Priorities" />
+    <MESSAGE value="Selenium TestNG Grouping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium TestNG Grouping" />
   </component>
 </project>
