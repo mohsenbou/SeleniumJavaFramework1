@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55638bc-1842-4b5d-be48-a7d558ce057c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/TestNGKatalon.java" afterDir="false" />
+    <list default="true" id="d55638bc-1842-4b5d-be48-a7d558ce057c" name="Changes" comment="Selenium TestNG How use Katolon (for TestNG)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/SeleniumFuentWaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/SeleniumWaitDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/MyLogsXml.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/MyLogsXml.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Test1_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Test1_GoogleSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,18 +66,9 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGKatalon">
-    <configuration name="C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGIgnoreDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SeleniumFuentWaitDemo">
+    <configuration name="SeleniumFuentWaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SeleniumFuentWaitDemo" />
       <module name="SeleniumJavaFramework" />
       <extension name="coverage">
         <pattern>
@@ -83,11 +76,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.TestNGIgnoreDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumWaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SeleniumWaitDemo" />
+      <module name="SeleniumJavaFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1_GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test1_GoogleSearch" />
+      <module name="SeleniumJavaFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,23 +116,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo" />
       <option name="MAIN_CLASS_NAME" value="demo.TestNGKatalon" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGPriorityDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.TestNGPriorityDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -155,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" />
+      <item itemvalue="Application.SeleniumFuentWaitDemo" />
+      <item itemvalue="Application.SeleniumWaitDemo" />
+      <item itemvalue="Application.Test1_GoogleSearch" />
       <item itemvalue="TestNG.TestNGKatalon" />
-      <item itemvalue="TestNG.TestNGIgnoreDemo" />
       <item itemvalue="TestNG.TestNGRetryFailedDemo" />
-      <item itemvalue="TestNG.TestNGPriorityDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeleniumFuentWaitDemo" />
+        <item itemvalue="Application.Test1_GoogleSearch" />
+        <item itemvalue="Application.SeleniumWaitDemo" />
         <item itemvalue="TestNG.TestNGKatalon" />
         <item itemvalue="TestNG.TestNGRetryFailedDemo" />
-        <item itemvalue="TestNG.C:/Dev/tuto selenium/SeleniumJavaFramework/test-output/testng-failed.xml" />
-        <item itemvalue="TestNG.TestNGPriorityDemo" />
-        <item itemvalue="TestNG.TestNGIgnoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688137062970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Selenium TestNG How use Katolon (for TestNG)">
+      <created>1688372356729</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688372356729</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,6 +265,7 @@
     <MESSAGE value="Selenium TestNG Dependencies" />
     <MESSAGE value="Selenium TestNG Ignore&#10;&#10;package-info.java: prevent the whole tests execution in the package &quot;demo&quot;. we need to disable the ignore notation." />
     <MESSAGE value="Selenium TestNG How to rerun (Rety) failed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium TestNG How to rerun (Rety) failed tests" />
+    <MESSAGE value="Selenium TestNG How use Katolon (for TestNG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium TestNG How use Katolon (for TestNG)" />
   </component>
 </project>
